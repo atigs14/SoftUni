@@ -44,7 +44,21 @@ class Garden {
   }
 
   harvestPlant(plantName) {
-    
+    const plantIndex = this.plants.findIndex(p => p.plantName == plantName);
+    if (plantIndex == -1) {
+      throw new Error`There is no ${plantName} in the garden.`
+    }
+    const plant = this.plants[plantIndex];
+    if (plant.ripe == false) {
+      throw new Error(`The ${plantName} cannot be harvested before it is ripe.`)
+    }
+    this.plants.splice(plantIndex, 1);
+    this.storage.push({
+      plantName,
+      quantity: plant.quantity
+    });
+    this.spaceAvailable += plant.spaceRequeired;
+    return `The ${plantName} has been successfully harvested.`
   }
 
   generateReport() {
