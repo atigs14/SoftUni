@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Coding.iml" filepath="$PROJECT_DIR$/.idea/Coding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAdvanced/DefiningClasses/DefiningClasses.iml" filepath="$PROJECT_DIR$/JavaAdvanced/DefiningClasses/DefiningClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOP/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/JavaOOP/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAdvanced/ExamPreperation/ExamPreperation.iml" filepath="$PROJECT_DIR$/JavaAdvanced/ExamPreperation/ExamPreperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From the beggining/From the beggining.iml" filepath="$PROJECT_DIR$/From the beggining/From the beggining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAdvanced/FunctionalProgramming/FunctionalProgramming.iml" filepath="$PROJECT_DIR$/JavaAdvanced/FunctionalProgramming/FunctionalProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOP/Inheritence/Inheritence.iml" filepath="$PROJECT_DIR$/JavaOOP/Inheritence/Inheritence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOP/InterfacesAndAbstraction/InterfacesAndAbstraction.iml" filepath="$PROJECT_DIR$/JavaOOP/InterfacesAndAbstraction/InterfacesAndAbstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOP/JavaOOP.iml" filepath="$PROJECT_DIR$/JavaOOP/JavaOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAdvanced/MultidimensionalArrays-Lab/MultidimensionalArrays-Lab.iml" filepath="$PROJECT_DIR$/JavaAdvanced/MultidimensionalArrays-Lab/MultidimensionalArrays-Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAdvanced/MultidimentisionalArrays/MultidimentisionalArrays.iml" filepath="$PROJECT_DIR$/JavaAdvanced/MultidimentisionalArrays/MultidimentisionalArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOP/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/JavaOOP/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOP/ReflectionAndAnnotation/ReflectionAndAnnotation.iml" filepath="$PROJECT_DIR$/JavaOOP/ReflectionAndAnnotation/ReflectionAndAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOP/SOLIDexcercises/SOLIDexcercises.iml" filepath="$PROJECT_DIR$/JavaOOP/SOLIDexcercises/SOLIDexcercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAdvanced/SetsAndMaps/SetsAndMaps.iml" filepath="$PROJECT_DIR$/JavaAdvanced/SetsAndMaps/SetsAndMaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAdvanced/StacksandQueues/StacksandQueues.iml" filepath="$PROJECT_DIR$/JavaAdvanced/StacksandQueues/StacksandQueues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAdvanced/StreamsFilesAndDirectories/StreamsFilesAndDirectories.iml" filepath="$PROJECT_DIR$/JavaAdvanced/StreamsFilesAndDirectories/StreamsFilesAndDirectories.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAdvanced/StreamsFilesDirectories/StreamsFilesDirectories.iml" filepath="$PROJECT_DIR$/JavaAdvanced/StreamsFilesDirectories/StreamsFilesDirectories.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOP/WorkingWithAbstraction/WorkingWithAbstraction.iml" filepath="$PROJECT_DIR$/JavaOOP/WorkingWithAbstraction/WorkingWithAbstraction.iml" />
+    </modules>
+  </component>
+</project>
