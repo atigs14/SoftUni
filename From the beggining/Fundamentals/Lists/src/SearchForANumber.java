@@ -32,8 +32,8 @@ public class SearchForANumber {
             newCollection.add(input.get(i));
         }
 
-        for (int i = 0; i < numbersToDelete - 1; i++) {
-            newCollection.remove(i);
+        for (int i = 0; i < numbersToDelete; i++) {
+            newCollection.remove(0);
         }
 
         if (newCollection.contains(numberWeSearch)){
