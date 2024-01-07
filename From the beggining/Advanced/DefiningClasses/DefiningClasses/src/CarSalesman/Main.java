@@ -1,5 +1,6 @@
 package CarSalesman;
 
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 public class Main {
@@ -19,6 +20,73 @@ public class Main {
          */
 
 
+        int n = Integer.parseInt(console.nextLine());
 
+        LinkedHashSet<Engine> engines = new LinkedHashSet<>();
+        LinkedHashSet<Car> cars = new LinkedHashSet<>();
+
+        while (n-- > 0) {
+            String[] tokens = console.nextLine().split(" ");
+
+            String engineModel = tokens[0];
+            int enginePower = Integer.parseInt(tokens[1]);
+
+            if (tokens.length == 4) {
+                int displacement = Integer.parseInt(tokens[2]);
+                String efficiency = tokens[3];
+                Engine engine = new Engine(engineModel, enginePower, displacement, efficiency);
+                engines.add(engine);
+
+            } else if (tokens.length == 3) {
+                try {
+                    int displacement = Integer.parseInt(tokens[2]);
+                    Engine engine = new Engine(engineModel, enginePower, displacement);
+                    engines.add(engine);
+
+                } catch (NumberFormatException e) {
+                    String efficiency = tokens[2];
+                    Engine engine = new Engine(engineModel, enginePower, efficiency);
+                    engines.add(engine);
+                }
+            } else if (tokens.length == 2) {
+                Engine engine = new Engine(engineModel, enginePower);
+            }
+        }
+
+        int m = Integer.parseInt(console.nextLine());
+
+        while (m-- > 0) {
+            String[] tokens = console.nextLine().split(" ");
+            String model = tokens[0];
+            String engineInString = tokens[1];
+
+            Engine engine = Engine.getEngineByModel(engines, engineInString);
+
+            if (tokens.length == 4) {
+                int weight = Integer.parseInt(tokens[2]);
+                String color = tokens[3];
+                Car car = new Car(model, engine, weight, color);
+                cars.add(car);
+
+            } else if (tokens.length == 3) {
+                try {
+                    int weight = Integer.parseInt(tokens[2]);
+                    Car car = new Car(model, engine, weight);
+                    cars.add(car);
+
+                } catch (Exception e) {
+                    String color = tokens[2];
+                    Car car = new Car(model, engine, color);
+                    cars.add(car);
+                }
+            } else if (tokens.length == 2) {
+                Car car = new Car(model, engine);
+                cars.add(car);
+            }
+        }
+
+        for (Car car : cars) {
+            System.out.println(car);
+        }
     }
 }
